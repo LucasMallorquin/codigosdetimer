@@ -1,21 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Lobster&family=Luckiest+Guy&family=Orbitron:wght@400..900&family=Protest+Guerrilla&family=Silkscreen:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Orbitron:wght@400..900&display=swap');
 
 :root{
-    --rosa: #f009b6;
+    --vermelho: #BD0000;
     --branco: #FFFFFF;
-    --rosa2: #fc62f7;
-    --rosa3:#ba4a9e;
+    --ativo: #5B1515;
+    --desativado:#9D2020;
 
 }
 
 body{
-    background-color: var(--rosa);
+    background-color: #390C0C;
     color: #FFFFFF;
 }
 
 h1{
     color: var(--branco);
-    font-family: "Silkscreen", sans-serif;
+    font-family: "Lobster", sans-serif;
     font-size: 50px;
     font-optical-sizing: auto;
     font-weight: 400;
@@ -36,24 +37,24 @@ h1{
 }
 
 span{
-    color: #1f2249;
-    font-family: "Silkscreen", sans-serif;
+    color: #FD0000;
+    font-family: "Lobster", sans-serif;
     font-size: 50px;
 }
 
 .botao {
-    font-family: "Silkscreen", sans-serif;
-    background-color: var(--rosa3);
-    color: #FFFFFF;
+    font-family: "Lobster", sans-serif;
+    background-color: var(--desativado);
+    color: var(--branco);
     display: flex;
     justify-content: center;
     padding: 1em;
     font-size: 18px;
     align-items: center;
     width: 300px;
-    border-bottom: 4px solid var(--rosa2); 
-    border-left: 2px solid var(--rosa2); 
-    border-right: 2px solid var(--rosa2); 
+    border-bottom: 4px solid var(--ativo); 
+    border-left: 2px solid var(--desativado); 
+    border-right: 2px solid var(--ativo); 
     border-top: none;
     opacity: 50%;
 
@@ -70,7 +71,7 @@ span{
 
 .botao.ativo{
     opacity: 100%;
-    border-bottom: 4px solid var(--rosa);
+    border-bottom: 4px solid var(--vermelho);
 }
 .abas-conteudo.ativo{
     display: block;
@@ -81,7 +82,7 @@ display: none;
 }
 
 .abas-textos{
-    background-color: var(--rosa2);
+    background-color: #290000;
     padding: 40px;
     border-radius: 0 0 40px 40px;
 }
@@ -89,22 +90,22 @@ display: none;
 .aba-conteudo-titulo1{
     font-size: 28px;
     text-align: center;
-    font-family: "Silkscreen", sans-serif;;
+    font-family: "Lobster", sans-serif;
     letter-spacing: 3px;
 }
 
 .aba-conteudo-titulo2{
     text-align: center;
-    color: var(--rosa);
+    color: var(--vermelho);
     text-transform: uppercase;
-    font-family: "Silkscreen", sans-serif;
+    font-family: "Orbitron", sans-serif;
     letter-spacing: 3px;
 }
 
 .contador{
     display: flex;
     justify-content: center;
-    font-family: "Silkscreen", sans-serif;
+    font-family: "Lobster", sans-serif;
     flex-wrap: wrap;
 }
 
@@ -120,8 +121,8 @@ display: none;
 }
 
 .contador-digito-texto{
-    color: var(--rosa);
-    font-family: "Silkscreen", sans-serif;
+    color: var(--vermelho);
+    font-family: "Orbitron", sans-serif;
     font-size: 22px;
     margin: 0;
 }
