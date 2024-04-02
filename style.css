@@ -2,15 +2,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Orbitron:wght@400..900&display=swap');
 
 :root{
-    --vermelho: #BD0000;
+    --vermelho: #1f0404;
     --branco: #FFFFFF;
-    --ativo: #5B1515;
-    --desativado:#9D2020;
+    --ativo: #120202;
+    --desativado:#0e0101;
 
 }
 
 body{
-    background-color: #390C0C;
+    background-color: #000000;
     color: #FFFFFF;
 }
 
@@ -37,7 +37,7 @@ h1{
 }
 
 span{
-    color: #FD0000;
+    color: #1889da;
     font-family: "Lobster", sans-serif;
     font-size: 50px;
 }
@@ -82,7 +82,7 @@ display: none;
 }
 
 .abas-textos{
-    background-color: #290000;
+    background-color: #000000;
     padding: 40px;
     border-radius: 0 0 40px 40px;
 }
